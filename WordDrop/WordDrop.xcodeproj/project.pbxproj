@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A97E1DC51659883000BCA164 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = A97E1DC41659883000BCA164 /* Tile.m */; };
 		EA856BEE16598616007BECD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BED16598616007BECD2 /* UIKit.framework */; };
 		EA856BF016598616007BECD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BEF16598616007BECD2 /* Foundation.framework */; };
 		EA856BF216598616007BECD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA856BF116598616007BECD2 /* CoreGraphics.framework */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A97E1DC31659883000BCA164 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		A97E1DC41659883000BCA164 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
 		EA856BE916598616007BECD2 /* WordDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA856BED16598616007BECD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA856BEF16598616007BECD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,6 +69,8 @@
 		EA856BDE16598616007BECD2 = {
 			isa = PBXGroup;
 			children = (
+				A97E1DC31659883000BCA164 /* Tile.h */,
+				A97E1DC41659883000BCA164 /* Tile.m */,
 				EA856BF716598616007BECD2 /* WordDrop */,
 				EA856BEC16598616007BECD2 /* Frameworks */,
 				EA856BEA16598616007BECD2 /* Products */,
@@ -193,6 +198,7 @@
 				EA856BFE16598616007BECD2 /* main.m in Sources */,
 				EA856C0216598616007BECD2 /* WordDropAppDelegate.m in Sources */,
 				EA856C1216598616007BECD2 /* WordDropViewController.m in Sources */,
+				A97E1DC51659883000BCA164 /* Tile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +315,7 @@
 				EA856C1716598616007BECD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
